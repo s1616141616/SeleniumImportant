@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="importantSelenium.GoogleAssert">
+      <class name="importantSelenium.SignIn">
         <methods>
-          <include name="softAssertTest"/>
-          <include name="hardAssertTest"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
+          <include name="signInTest"/>
         </methods>
-      </class> <!-- importantSelenium.GoogleAssert -->
+      </class> <!-- importantSelenium.SignIn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

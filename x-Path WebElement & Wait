@@ -1,0 +1,8 @@
+1-a:ImplicitWait:
+	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+1-b:ExplicitWait:
+	Thread.sleep(3000);
+1-c:WebDriverWait:
+	WebDriverWait wait = new WebDriverWait(driver, 10);
+	wait.until(ExpectedConditions.elementToBeClickable(element));
+	element.click();
